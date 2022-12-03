@@ -1,5 +1,15 @@
 export default function homePage() {
-    console.log("js");
+    const menuBtn = document.querySelector(".menu");
+    const homeBtn = document.querySelector(".home");
+    const contactBtn = document.querySelector(".contact");
+
+    menuBtn.classList.remove("active");
+    menuBtn.classList.add("passive");
+    homeBtn.classList.remove("passive");
+    homeBtn.classList.add("active");
+    contactBtn.classList.remove("active");
+    contactBtn.classList.add("passive");
+
     const content = document.querySelector("#content");
 
     const context = document.querySelector(".context");

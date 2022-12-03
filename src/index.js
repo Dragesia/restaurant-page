@@ -6,7 +6,7 @@ const content = document.querySelector("#content");
 
 const headerImg = document.createElement("img");
 headerImg.setAttribute('id', 'header');
-headerImg.setAttribute('src', './header.jpg');
+headerImg.setAttribute('src', 'header.jpg');
 
 const headerDiv = document.createElement("div");
 headerDiv.classList.add("header-div");
